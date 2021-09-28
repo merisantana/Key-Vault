@@ -1,4 +1,4 @@
-Variable "resourcerm_group_name" {
+Variable "resource_group_name" {
   type "string"
 }
 Variable "location" {
