@@ -1,5 +1,5 @@
 data "azurerm_resource_group" "RG" {
-  name = var.resurce_group_name
+  name = var.resource_group_name
 }  
 resource "azurerm_key_vault" "KV" {
   name                        = var.name_key_vault
